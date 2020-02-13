@@ -1,0 +1,26 @@
+{
+  "name": "mock-external-schema",
+  "version": "0.1.0",
+  "description": "Use Apollo Server to mock an external schema",
+  "main": "server.js",
+  "scripts": {
+    "update-schema": "graphql get-schema -e https://api.spacex.land/graphql -o schema.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GraphQLGuide/mock-external-schema.git"
+  },
+  "author": "Loren Sands-Ramshaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GraphQLGuide/mock-external-schema/issues"
+  },
+  "homepage": "https://github.com/GraphQLGuide/mock-external-schema#readme",
+  "dependencies": {
+    "apollo-server": "^2.10.0",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "graphql-cli": "^3.0.14"
+  }
+}
